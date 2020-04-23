@@ -43,6 +43,7 @@ The data consists of 2218 unique reddit posts from the [r/india](https://www.red
 10) Photography
 11) Sports
 12) [R]eddiquette
+
 The data was stored into a CSV file for further usage. 
 
 2 approaches were used for data extraction which are given as follows:
