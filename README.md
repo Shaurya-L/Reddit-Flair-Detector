@@ -85,6 +85,7 @@ The data includes the following attributes:
 * Body of the Post
 * Number of Comments on the Post
 * Post Comments
+
 For comments, only top 10 comments were considered in dataset and no sub-comments are present.
 
 This data was saved in **Final Reddit India Data.csv** file
