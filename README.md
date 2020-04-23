@@ -72,7 +72,7 @@ To resolve the first problem some flairs were completely removed or 2 or more fl
 
 This data was saved in [posts_data.csv](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/posts_data.csv) file
 
-However, the second problem of data being unevenly divided still persisits. To remove this problem a second approach of data collection was tried.
+However, the second problem of data being unevenly divided still persists. To remove this problem a second approach of data collection was tried.
 
 **Approach 2**<br>
 Collected 200 posts for each of the 12 flairs from [r/india](https://www.reddit.com/r/india/) on Reddit using **praw**(Python Reddit API Wrapper) module.
