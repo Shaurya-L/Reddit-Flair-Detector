@@ -122,11 +122,11 @@ Data analysis was performed on the data collected. All the plots have been saved
 ### Part 3: Building a Flair Detector/Classifier
 The data collected in part 1 was loaded. The flair detector has been created in 2 steps as follows.
 
-**Step 1 - Data Cleaning and Preprocessing**
+**Step 1 - Data Cleaning and Pre-processing**
 
-We cannot directly apply machine learning or deep learning models directly on raw text. Data needs to be preprocessed that is data should be converted to a cleaner form so that it can be fed to our model. 
+We cannot apply machine learning or deep learning models directly on raw text. Data needs to be pre-processed that is data should be converted to a cleaner form so that it can be fed to our model. 
 
-For **cleaning and preprocessing the data** we did the following five steps:
+For **cleaning and pre-processing the data** we did the following five steps:
 1) Converting entire text to lower case
 2) Replacing symbols like these /, (), {}, \, etc with space
 3) Deleting certain symbols like #, _, ^, etc
