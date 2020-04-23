@@ -1,1 +1,2 @@
-# Reddit-Latest
+# Reddit Flair Detector
+
