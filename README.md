@@ -162,7 +162,7 @@ Following results were obtained
 | **Random Forest**  | **71.71**  |
 | MLP Classifier  | 52.79  |
 | ADA Boost | 55.85  |
-| Gradient Boost  | 65.77  |
+| Gradient Boosting  | 65.77  |
 | KNN | 49.91 |
 
 
@@ -177,7 +177,7 @@ Following results were obtained
 | Random Forest  | 40.72 |
 | MLP Classifier  | 29.73  |
 | ADA Boost | 28.65  |
-| **Gradient Boost**  | **41.26**  |
+| **Gradient Boosting**  | **41.26**  |
 | KNN | 27.57 |
 
 
@@ -192,7 +192,7 @@ Following results were obtained
 | Random Forest  | 31.35  |
 | MLP Classifier  | 25.59  |
 | ADA Boost | 26.85  |
-| Gradient Boost  | 33.15  |
+| Gradient Boosting  | 33.15  |
 | KNN | 27.20 |
 
 **Comments as a Feature**
@@ -206,7 +206,7 @@ Following results were obtained
 | **Random Forest**  | **52.61**  |
 | MLP Classifier  | 41.98  |
 | ADA Boost | 39.28 |
-| Gradient Boost  | 47.39  |
+| Gradient Boosting  | 47.39  |
 | KNN | 38.38 |
 
 **Title + Body + URL + Comments as a Feature**
@@ -220,7 +220,7 @@ Following results were obtained
 | Random Forest  | 81.44  |
 | MLP Classifier  | 60.18  |
 | ADA Boost | 61.98|
-| **Gradient Boost**  |**84.68**  |
+| **Gradient Boosting**  |**84.68**  |
 | KNN | 53.15 |
 
 Using URL and Body as the only features gives us the lowest testing accuracy. We get the highest testing accuracy of **84.68%** when we use **Gradient Boosting** as our algorithm and post title, body, URL and comments as a combined feature.
