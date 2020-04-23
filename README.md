@@ -223,3 +223,9 @@ Following results were obtained
 
 Using URL and Body as the only features gives us the lowest testing accuracy. We get the highest testing accuracy of **84.68%** when we use **Gradient Boosting** as our algorithm and post title, body, URL and comments as a combined feature.
 
+The [gradient boosting](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/Gradient%20Boosting.pkl) model and random forest model returned the highest testing accuracies with all the features combined. Those models were saved to the working directory. Random Forest model couldn't be uploaded to github due to its large size. It has been saved as a [google drive](https://drive.google.com/file/d/1FE4O_Xgk4KR_jtNE5CS8oNQYKNyfSM7P/view?usp=sharing) file.
+
+### Part 4: Building a Web Application
+
+The best model which is Gradient Boosting was deployed as a web app which uses Flask in the backend and HTML at the frontend. Following are the screenshots for the web app running on local host.
+
