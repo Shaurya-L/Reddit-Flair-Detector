@@ -229,3 +229,35 @@ The [gradient boosting](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/
 
 The best model which is Gradient Boosting was deployed as a web app which uses Flask in the backend and HTML at the frontend. Following are the screenshots for the web app running on local host.
 
+![Screen Shot 2020-04-23 at 10 15 09 PM](https://user-images.githubusercontent.com/57843558/80125954-069e5700-85b0-11ea-9640-73716c2cc944.png)
+
+![Screen Shot 2020-04-23 at 10 15 19 PM](https://user-images.githubusercontent.com/57843558/80125964-09994780-85b0-11ea-9072-6e7a6b5aee01.png)
+
+
+### Part 5: Deploying on Heroku
+
+The web application has been deployed on Heroku. The live demo can be found [here](https://flair-predictor-app.herokuapp.com)
+
+### References
+
+**For Data Collection**
+
+1) https://www.youtube.com/watch?v=gIZJQmX-55U
+2) https://www.youtube.com/watch?v=NRgfgtzIhBQ
+3) https://www.youtube.com/watch?v=KX2jvnQ3u60
+4) https://praw.readthedocs.io/en/latest/
+
+**For Flair Classification**
+
+1) https://machinelearningmastery.com/clean-text-machine-learning-python/
+2) https://towardsdatascience.com/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f
+3) https://towardsdatascience.com/the-ultimate-guide-to-adaboost-random-forests-and-xgboost-7f9327061c4f
+4) https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/
+
+**For webapp and deployment on Heroku**
+
+1) https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13
+2) https://flask.palletsprojects.com/en/1.1.x/
+3) https://www.youtube.com/watch?v=UbCWoMf80PY
+4) https://www.youtube.com/watch?v=mrExsjcvF4o
+5) https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
