@@ -132,4 +132,94 @@ For **cleaning and preprocessing the data** we did the following five steps:
 5) We'll also combine the post title, body, URL and the post comments to create a new feature which would be used for predicting flair of the data.
 
 **Step 2 - Applying Machine Learning Algorithms**
-Ma
+
+We'll be implementing the following Machine Learning algorithms
+
+* Logistic Regression
+* Naive Bayes
+* Linear SVM
+* SGDC
+* Random Forest
+* MLP Classifier
+* ADA Boost
+* Gradient Boost
+* K Nearest Neightbours(KNN)
+
+We first trained these models using the Post **Title**, **Body**, **URL**, **Comments** feature and then combined these features to create a new feature **Combined_Features** and trained the machine learning models.
+
+Following results were obtained
+
+**Title as a Feature**
+
+|   Machine Learning Algorithm  | Test Accuracy |
+| ------------- | ------------- |
+| Naive Bayes  | 67.75  |
+| Linear SVM  | 71.00  |
+| SGDC  | 70.27  |
+| Logistic Regression  | 69.91  |
+| **Random Forest**  | **71.71**  |
+| MLP Classifier  | 52.79  |
+| ADA Boost | 55.85  |
+| Gradient Boost  | 65.77  |
+| KNN | 49.91 |
+
+
+**Body as a Feature**
+
+|   Machine Learning Algorithm  | Test Accuracy |
+| ------------- | ------------- |
+| Naive Bayes  | 32.43  |
+| Linear SVM  | 37.66  |
+| SGDC  | 39.82  |
+| Logistic Regression  | 40  |
+| Random Forest  | 40.72 |
+| MLP Classifier  | 29.73  |
+| ADA Boost | 28.65  |
+| **Gradient Boost**  | **41.26**  |
+| KNN | 27.57 |
+
+
+**URL as a Feature**
+
+|   Machine Learning Algorithm  | Test Accuracy |
+| ------------- | ------------- |
+| Naive Bayes  | 29.55  |
+| Linear SVM  | 33.87  |
+| **SGDC**  | **36.94**  |
+| Logistic Regression  | 34.23  |
+| Random Forest  | 31.35  |
+| MLP Classifier  | 25.59  |
+| ADA Boost | 26.85  |
+| Gradient Boost  | 33.15  |
+| KNN | 27.20 |
+
+**Comments as a Feature**
+
+|   Machine Learning Algorithm  | Test Accuracy |
+| ------------- | ------------- |
+| Naive Bayes  | 41.62  |
+| Linear SVM  | 51.35 |
+| SGDC  | 52.25  |
+| Logistic Regression  | 51.72  |
+| **Random Forest**  | **52.61**  |
+| MLP Classifier  | 41.98  |
+| ADA Boost | 39.28 |
+| Gradient Boost  | 47.39  |
+| KNN | 38.38 |
+
+**Title + Body + URL + Comments as a Feature**
+
+|   Machine Learning Algorithm  | Test Accuracy |
+| ------------- | ------------- |
+| Naive Bayes  | 62.52  |
+| Linear SVM  | 75.68  |
+| SGDC  | 79.82 |
+| Logistic Regression  | 78.20  |
+| Random Forest  | 81.44  |
+| MLP Classifier  | 60.18  |
+| ADA Boost | 61.98|
+| **Gradient Boost**  |**84.68**  |
+| KNN | 53.15 |
+
+Using URL and Body as the only features gives us the lowest testing accuracy. We get the highest testing accuracy of **84.68%** when we use **Gradient Boosting** as our algorithm and post title, body, URL and comments as a combined feature.
+
