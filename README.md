@@ -89,3 +89,10 @@ For comments, only top 10 comments were considered in dataset and no sub-comment
 This data was saved in **Final Reddit India Data.csv** file
 
 Following bar plot shows the distribution of data where x-axis denotes the Flair and y-axis denotes the number of data instances for each flair.
+
+![Screen Shot 2020-04-23 at 6 22 38 PM](https://user-images.githubusercontent.com/57843558/80101907-ae575d00-858f-11ea-8aa2-ab8cb583a4b9.png)
+
+
+### Part 2: Exploratory Data Analysis
+Data analysis was performed on the data collected. All the plots have been saved in the **Plots** folder given in the repositry.
+
