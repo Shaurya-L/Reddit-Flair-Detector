@@ -30,7 +30,7 @@ Just follow the below steps in order to run this web app offline on your compute
 
 
 ### Part 1: Reddit Data Collection
-The data consists of 2218 unique reddit posts from the [r/india](https://www.reddit.com/r/india/) subreddit. The [R]eddiquette flair consisted of a mere 18 posts while the others had 200 posts per flair. Data collection was the longest part of the whole process, and took about 4 hourse for complete retrieval. The data scraped was divided into 12 different types of flairs:
+The data consists of 2218 unique reddit posts from the [r/india](https://www.reddit.com/r/india/) subreddit. The [R]eddiquette flair consisted of mere 18 posts while the others have 200 posts per flair. Data collection was the longest part of the whole process, and took about 4 hours for complete retrieval. The data scraped was divided into 12 different types of flairs:
 1) AMA 
 2) Policy/Economy 
 3) Non Political 
