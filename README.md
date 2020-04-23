@@ -60,7 +60,7 @@ Parsed through the **Top**, **Hot**, **New**, **Controversial** of [r/india](htt
 
 I was able to collect data from 2827 posts. However, there were quite a few problems with the data collected. Following are the problems encountered:
 * A lot of random flairs were encountered. 
-* Second problem was that data was very unevenly divided. Some flairs have more than 800 instances while some flairs have negligible number of instances
+* Second problem was that data was very unevenly divided. Some flairs have more than 800 data instances while some flairs have negligible number of data instances
 
 Following bar plot highlights the issues faced where x-axis denotes the Flair and y-axis denotes the number of data instances for each flair.
 
