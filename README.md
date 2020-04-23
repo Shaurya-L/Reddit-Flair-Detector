@@ -65,5 +65,27 @@ Following bar plot highlights the issues faced where x-axis denotes the Flair an
 
 ![Bar Plot](https://user-images.githubusercontent.com/57843558/80099977-ee691080-858c-11ea-9a12-0de6ff9fd28a.png)
 
-To resolve the first problem some flairs were completely removed or 2 or more flairs were combined with each other. The following bar plot shows the same.
+To resolve the first problem some flairs were completely removed or 2 or more flairs were combined with each other. The following bar plot shows the same where x-axis denotes the Flair and y-axis denotes the number of data instances for each flair.
 
+![Screen Shot 2020-04-23 at 6 08 20 PM](https://user-images.githubusercontent.com/57843558/80100336-751ded80-858d-11ea-9797-7b31678b3ffe.png)
+
+This data was saved in **posts_data.csv** file
+
+However, the second problem of data being unevenly divided still persisits. To remove this problem a second approach of data collection was tried.
+
+**Approach 2**<br>
+Collected 200 posts for each of the 12 flairs from [r/india](https://www.reddit.com/r/india/) on Reddit using **praw**(Python Reddit API Wrapper) module.
+The data includes the following attributes:
+* Flair of the Post
+* Title of the Post
+* Unique ID of the Post
+* Score of the Post(Difference b/w the upvotes and downvotes of a post)
+* URL of the Post
+* Body of the Post
+* Number of Comments on the Post
+* Post Comments
+For comments, only top 10 comments were considered in dataset and no sub-comments are present.
+
+This data was saved in **Final Reddit India Data.csv** file
+
+Following bar plot shows the distribution of data where x-axis denotes the Flair and y-axis denotes the number of data instances for each flair.
