@@ -96,7 +96,7 @@ Following bar plot shows the distribution of data where x-axis denotes the Flair
 
 
 ### Part 2: Exploratory Data Analysis
-Data analysis was performed on the data collected. All the plots have been saved in the **Plots** folder given in the repositry.
+Data analysis was performed on the data collected. All the plots have been saved in the [Plots](https://github.com/Shaurya-L/Reddit-Flair-Detector/tree/master/Plots) folder given in the repositry.
 
 ![Flairs vs Number of Data Points per Flair Bar Chart](https://user-images.githubusercontent.com/57843558/80102781-e57a3e00-8590-11ea-9f92-42a8c196fb4e.png)
 
