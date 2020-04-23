@@ -70,7 +70,7 @@ To resolve the first problem some flairs were completely removed or 2 or more fl
 
 ![Screen Shot 2020-04-23 at 6 08 20 PM](https://user-images.githubusercontent.com/57843558/80100336-751ded80-858d-11ea-9797-7b31678b3ffe.png)
 
-This data was saved in **posts_data.csv** file
+This data was saved in [posts_data.csv](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/posts_data.csv) file
 
 However, the second problem of data being unevenly divided still persisits. To remove this problem a second approach of data collection was tried.
 
