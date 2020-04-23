@@ -88,7 +88,7 @@ The data includes the following attributes:
 
 For comments, only top 10 comments were considered in dataset and no sub-comments are present.
 
-This data was saved in **Final Reddit India Data.csv** file
+This data was saved in [Final Reddit India Data.csv](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/Final%20Reddit%20India%20Data.csv) file
 
 Following bar plot shows the distribution of data where x-axis denotes the Flair and y-axis denotes the number of data instances for each flair.
 
