@@ -96,3 +96,32 @@ Following bar plot shows the distribution of data where x-axis denotes the Flair
 ### Part 2: Exploratory Data Analysis
 Data analysis was performed on the data collected. All the plots have been saved in the **Plots** folder given in the repositry.
 
+![Flairs vs Number of Data Points per Flair Bar Chart](https://user-images.githubusercontent.com/57843558/80102781-e57a3e00-8590-11ea-9f92-42a8c196fb4e.png)
+
+![Distribution of Number of Words in Title Histogram](https://user-images.githubusercontent.com/57843558/80102773-e3b07a80-8590-11ea-9f49-854cf0edcad3.png)
+
+![Word in Body v:s Number of Posts Histogram](https://user-images.githubusercontent.com/57843558/80102796-ea3ef200-8590-11ea-86d0-90b2388e7c51.png)
+
+![Post Score v:s Number of Posts Histogram](https://user-images.githubusercontent.com/57843558/80102795-e9a65b80-8590-11ea-990d-93aaebc84362.png)
+
+![Number of Comments v:s Number of Posts Histogram](https://user-images.githubusercontent.com/57843558/80102785-e612d480-8590-11ea-8d15-741d27e0a1b2.png)
+
+![Number of Comments v:s Post Score Plot](https://user-images.githubusercontent.com/57843558/80102786-e7440180-8590-11ea-9419-af4e56ad0afd.png)
+
+![Number of Comments v:s Post Score Scatter Plot 1](https://user-images.githubusercontent.com/57843558/80102789-e7dc9800-8590-11ea-851c-d0ff18297ca7.png)
+
+![Number of Comments v:s Post Score Scatter Plot 2](https://user-images.githubusercontent.com/57843558/80102790-e8752e80-8590-11ea-9f57-0bc956e8d017.png)
+
+![Number of Comments w r t Each Flair Histogram 1](https://user-images.githubusercontent.com/57843558/80102791-e90dc500-8590-11ea-962c-fda3a23e7fa9.png)
+
+![Number of Comments w r t Each Flair Histogram 2](https://user-images.githubusercontent.com/57843558/80102794-e90dc500-8590-11ea-81c8-af3ebec5d6ff.png)
+
+
+### Part 3: Building a Flair Detector/Classifier
+The data collected in part 1 was loaded. The flair detector has been created in 2 steps as follows.
+**Step 1 - Data Cleaning and Preprocessing**
+We cannot directly apply machine learning or deep learning models directly on raw text. Data needs to be preprocessed that is data should be converted to a cleaner form so that it can be fed to our model. For cleaning the data we did the following three steps:
+1) Converting entire text to lower case
+2) Replacing symbols like these /, (), {}, \, etc with space
+3) Deleting certain symbols like #, _, ^, etc
+4) Removing STOPWORDS from text (STOPWORD is a commonly used word such as “the”, “a”, “an”, “in” that a search engine has been programmed to ignore, both when indexing entries for searching and when retrieving them as the result of a search query)
