@@ -230,7 +230,7 @@ The [gradient boosting](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/
 
 ### Part 4: Building a Web Application
 
-The best model which is Gradient Boosting was deployed as a web app which uses Flask in the backend and HTML at the frontend. Following are the screenshots for the web app running on local host.
+The best model which is Gradient Boosting was deployed as a web app which uses Flask in the backend and HTML at the frontend. <br>Following are the screenshots for the web app running on local host.
 
 ![Screen Shot 2020-04-25 at 11 39 18 PM](https://user-images.githubusercontent.com/57843558/80287305-74808500-874e-11ea-8c92-916b422016b8.png)
 
@@ -240,6 +240,13 @@ The best model which is Gradient Boosting was deployed as a web app which uses F
 ### Part 5: Deploying on Heroku
 
 The web application has been deployed on Heroku. The live demo can be found [here](https://flair-classify.herokuapp.com). Following are the screenshots for the web app running on heroku web server.
+
+![Screen Shot 2020-04-25 at 11 45 55 PM](https://user-images.githubusercontent.com/57843558/80287399-10aa8c00-874f-11ea-9203-29390b9bad0e.png)
+
+![Screen Shot 2020-04-25 at 11 46 04 PM](https://user-images.githubusercontent.com/57843558/80287406-13a57c80-874f-11ea-8a3e-b8e57f2b378d.png)
+
+Another feature of the web app is that we can upload a text(.txt) file consisting of the links of various Reddit posts. Once the file is submitted the predicted flairs of all the posts is returned. This helps in the bulk testing of several Reddit posts at one go. The live demo for the same can be found [here](https://flair-classify.herokuapp.com/automated_testing). <br><br>Following are the screenshots for the same.
+
 
 
 
