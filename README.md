@@ -251,10 +251,15 @@ Another feature of the web app is that we can upload a text(.txt) file consistin
 <br><br>
 For bulk testing of flairs of Reddit posts we make a text file consisting of links from 12 Reddit posts such that we have 1 link in each line. [RedditFlair.txt](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/RedditFlair.txt) was uploaded and when the submit button is clicked, the result will be shared as a JSON object which contains the Reddit URL and its corresponding flair as shown by the below screenshot
 <br><br>
-![Screen Shot 2020-04-25 at 11 56 36 PM](https://user-images.githubusercontent.com/57843558/80287714-78150b80-8750-11ea-9d4b-9991d779bdcb.png)
+![Screen Shot 2020-04-26 at 12 07 20 AM](https://user-images.githubusercontent.com/57843558/80287945-21a8cc80-8752-11ea-95e2-21eec68e5666.png)
 <br>
 We can also run the [Automated Testing URL](https://flair-classify.herokuapp.com/automated_testing) through a client script. <br>Following screenshot demonstrates the same.
 
+![Screen Shot 2020-04-26 at 12 09 21 AM](https://user-images.githubusercontent.com/57843558/80287980-5157d480-8752-11ea-970e-4a47dfe5f961.png)
+
+
+
+![Screen Shot 2020-04-26 at 12 09 56 AM](https://user-images.githubusercontent.com/57843558/80287982-5452c500-8752-11ea-8591-81e30d08aff6.png)
 
 
 ### References
