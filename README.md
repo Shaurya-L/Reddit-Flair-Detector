@@ -253,7 +253,7 @@ For bulk testing of flairs of Reddit posts we make a text file consisting of lin
 <br><br>
 ![Screen Shot 2020-04-25 at 11 56 36 PM](https://user-images.githubusercontent.com/57843558/80287714-78150b80-8750-11ea-9d4b-9991d779bdcb.png)
 <br>
-We can also run this [URL](https://flair-classify.herokuapp.com/automated_testing) through a client script. Following screenshot demonstrates the same.
+We can also run the [Automated Testing URL](https://flair-classify.herokuapp.com/automated_testing) through a client script. <br>Following screenshot demonstrates the same.
 
 
 
