@@ -255,12 +255,16 @@ For bulk testing of flairs of Reddit posts we make a text file consisting of lin
 <br>
 We can also run the [Automated Testing URL](https://flair-classify.herokuapp.com/automated_testing) through a client script. <br>Following screenshot demonstrates the same.
 
-![Screen Shot 2020-04-26 at 12 09 21 AM](https://user-images.githubusercontent.com/57843558/80287980-5157d480-8752-11ea-970e-4a47dfe5f961.png)
+![Screen Shot 2020-04-26 at 12 15 42 AM](https://user-images.githubusercontent.com/57843558/80288088-2de15980-8753-11ea-9f49-1d20c591d3e8.png)
 
-
+<br>
 
 ![Screen Shot 2020-04-26 at 12 09 56 AM](https://user-images.githubusercontent.com/57843558/80287982-5452c500-8752-11ea-8591-81e30d08aff6.png)
 
+**Challenges I Faced**
+
+1) File upload wasn't working when I was bulk testing of flairs of various Reddit posts. The Heroku server was continuously returning **error code 400**. The problem was due to certain parameter mismatch between client request and server parameters.
+2) The code was working perfectly fine on local host but started giving method not allowed **error 405** when the project was deployed on Heroku. A lot of time was spent in debugging the same. Some changes were made in the code including addition of new paramter in request headers which is **'Expect': '100-continue'**. This was as recommended by the Heroku support for resolution of error 405. 
 
 ### References
 
