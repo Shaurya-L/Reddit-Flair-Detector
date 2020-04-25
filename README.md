@@ -232,9 +232,9 @@ The [gradient boosting](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/
 
 The best model which is Gradient Boosting was deployed as a web app which uses Flask in the backend and HTML at the frontend. Following are the screenshots for the web app running on local host.
 
-![Screen Shot 2020-04-23 at 10 15 09 PM](https://user-images.githubusercontent.com/57843558/80125954-069e5700-85b0-11ea-9640-73716c2cc944.png)
+![Screen Shot 2020-04-25 at 11 39 18 PM](https://user-images.githubusercontent.com/57843558/80287305-74808500-874e-11ea-8c92-916b422016b8.png)
 
-![Screen Shot 2020-04-23 at 10 15 19 PM](https://user-images.githubusercontent.com/57843558/80125964-09994780-85b0-11ea-9072-6e7a6b5aee01.png)
+![Screen Shot 2020-04-25 at 11 41 31 PM](https://user-images.githubusercontent.com/57843558/80287308-76e2df00-874e-11ea-857a-7390d5c3aaa1.png)
 
 
 ### Part 5: Deploying on Heroku
