@@ -13,7 +13,7 @@ The dscription of the files and folders in the directory is as follows:
 7) [Procfile](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/Procfile) - Used for initiating Heroku app.
 8) [templates](https://github.com/Shaurya-L/Reddit-Flair-Detector/tree/master/templates) - Consists of html files which form the frontend.
 9) [requirements.txt](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/requirements.txt) - Containing all Python dependencies of the project.
-10) [Plots](https://github.com/Shaurya-L/Reddit-Flair-Detector/tree/master/Plots) - Consists all the plots drawn as a part of data analysis
+10) [Plots](https://github.com/Shaurya-L/Reddit-Flair-Detector/tree/master/Plots) - Consists of all the plots drawn as a part of data analysis
 
 
 ### Codebase
