@@ -270,22 +270,23 @@ We can also run the [Automated Testing URL](https://flair-classify.herokuapp.com
 
 **For Data Collection**
 
-1) https://www.youtube.com/watch?v=gIZJQmX-55U
-2) https://www.youtube.com/watch?v=NRgfgtzIhBQ
-3) https://www.youtube.com/watch?v=KX2jvnQ3u60
-4) https://praw.readthedocs.io/en/latest/
+1) [Python Scripts - Scraping Reddit via API (PRAW)](https://www.youtube.com/watch?v=gIZJQmX-55U)
+2) [Introduction and Basics - Python Reddit API Wrapper (PRAW)](https://www.youtube.com/watch?v=NRgfgtzIhBQ)
+3) [Parsing Reddit comments - Python Reddit API Wrapper (PRAW)](https://www.youtube.com/watch?v=KX2jvnQ3u60)
+4) [PRAW Documentation](https://praw.readthedocs.io/en/latest/)
 
 **For Flair Classification**
 
-1) https://machinelearningmastery.com/clean-text-machine-learning-python/
-2) https://towardsdatascience.com/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f
-3) https://towardsdatascience.com/the-ultimate-guide-to-adaboost-random-forests-and-xgboost-7f9327061c4f
-4) https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/
+1) [How to clean text for Machine Learning](https://machinelearningmastery.com/clean-text-machine-learning-python/)
+2) [NLP for eginners: Cleaning and Preprocessing Data](https://towardsdatascience.com/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f)
+3) [Guide for AdaBoost, Random Forest, XGBoost](https://towardsdatascience.com/the-ultimate-guide-to-adaboost-random-forests-and-xgboost-7f9327061c4f)
+4) [Implementing text classification with Python](https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/)
 
 **For webapp and deployment on Heroku**
 
-1) https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13
-2) https://flask.palletsprojects.com/en/1.1.x/
-3) https://www.youtube.com/watch?v=UbCWoMf80PY
-4) https://www.youtube.com/watch?v=mrExsjcvF4o
-5) https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/
+1) [Getting started with Flask](https://medium.com/techkylabs/getting-started-with-python-flask-framework-part-1-a4931ce0ea13)
+2) [Flask Documentation](https://flask.palletsprojects.com/en/1.1.x/)
+3) [Deploy Machine Learning model using Flask](https://www.youtube.com/watch?v=UbCWoMf80PY)
+4) [Deployment of ML models in Heroku using FLASK](https://www.youtube.com/watch?v=mrExsjcvF4o)
+5) [How to build a web application using Flask and deploy it to the cloud](https://www.freecodecamp.org/news/how-to-build-a-web-application-using-flask-and-deploy-it-to-the-cloud-3551c985e492/)
+6) [Heroku Documentation](https://devcenter.heroku.com/categories/reference)
