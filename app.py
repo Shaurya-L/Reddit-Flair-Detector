@@ -1,17 +1,18 @@
-# Libraries
 import pickle
 import praw
 import re
 import nltk
 from nltk.corpus import stopwords
 from flask import Flask, render_template, request
+from werkzeug import secure_filename
+import json
+#from flask_http_response import success, result, error
 
 
 # Use pickle to load in the pre-trained model
 model = pickle.load(open('Gradient Boosting.pkl','rb'))
 
 
-# Creating a reddit instance
 reddit = praw.Reddit(client_id = '2d0GPjug_U7kaQ', client_secret = 'slwg95MGliJJAFwnh6kK7XziIY8', user_agent = 'Test_API', username = "Shaurya_L", password = "123456")
 
 
@@ -60,7 +61,7 @@ def prediction(url):
 # Building the Flask app
 app = Flask(__name__)
                
-@app.route("/")
+@app.route('/')
 def index():                                                                                         
     return render_template("index.html")
 
@@ -73,23 +74,34 @@ def success():
         print(str_a)
         return render_template("success.html",str_a = str_a, link = link)
 
+@app.route("/automated_testing")
+def index2():                                                                                         
+    return render_template("index2.html")
 
-@app.route('/automated_testing', methods = ["POST"])
-def predict_file():
-    for i in request.files:
-        file = request.files[i]
-        
-        urls = file.read()
-        urls = urls.decode("utf-8").split("\n")
-        print(urls)
-        urls = [i.replace("\r", "") for i in urls]
-        print("length: ", len(urls))
-        
-        res = process(urls)
-        
-        print(res)
-                
-    return(jsonify(res))
+@app.route("/automated_testing", methods = ['POST', 'GET'])
+def automated_testing():
+    #print("Hello")
+    #print(request.method)
+    if request.method == 'POST':
+        #print("Hello 2")
+        myfile = request.files['upload_file']
+        print("Hello")
+        myfile.save(secure_filename(myfile.filename))
+        lst = []
+        with open(myfile.filename, 'r') as filein:
+            for url in filein:
+                lst.append(url)
+
+        dic = {}
+        for i in lst:
+            i = i[:-1]
+            pred = prediction(i)
+            key = i
+            value = pred[0]
+            dic.update({key : value})
+
+    d = json.dumps(dic)
+    return json.dumps(d)
 
 
 if __name__=='__main__':
