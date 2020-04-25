@@ -1,6 +1,6 @@
 # Reddit Flair Detector
 
-Reddit Flair Detector web application is used to detect flairs of reddit posts using Machine Learning algorithms. The application can be found live at [Reddit Flair Detector](https://flair-predictor-app.herokuapp.com). 
+Reddit Flair Detector web application is used to detect flairs of reddit posts using Machine Learning algorithms. The application can be found live at [Reddit Flair Detector](https://flair-classify.herokuapp.com). 
 
 ### Directory Structure
 The dscription of the files and folders in the directory is as follows:
@@ -13,6 +13,7 @@ The dscription of the files and folders in the directory is as follows:
 7) [Procfile](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/Procfile) - Used for initiating Heroku app.
 8) [templates](https://github.com/Shaurya-L/Reddit-Flair-Detector/tree/master/templates) - Consists of html files which form the frontend.
 9) [requirements.txt](https://github.com/Shaurya-L/Reddit-Flair-Detector/blob/master/requirements.txt) - Containing all Python dependencies of the project.
+10) [Plots](https://github.com/Shaurya-L/Reddit-Flair-Detector/tree/master/Plots) - Consists all the plots drawn as a part of data analysis
 
 
 ### Codebase
@@ -238,7 +239,9 @@ The best model which is Gradient Boosting was deployed as a web app which uses F
 
 ### Part 5: Deploying on Heroku
 
-The web application has been deployed on Heroku. The live demo can be found [here](https://flair-predictor-app.herokuapp.com)
+The web application has been deployed on Heroku. The live demo can be found [here](https://flair-classify.herokuapp.com). Following are the screenshots for the web app running on heroku web server.
+
+
 
 ### References
 
