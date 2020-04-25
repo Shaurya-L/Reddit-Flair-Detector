@@ -247,7 +247,9 @@ The web application has been deployed on Heroku. The live demo can be found [her
 
 Another feature of the web app is that we can upload a text(.txt) file consisting of the links of various Reddit posts. Once the file is submitted the predicted flairs of all the posts is returned. This helps in the bulk testing of several Reddit posts at one go. The live demo for the same can be found [here](https://flair-classify.herokuapp.com/automated_testing). <br><br>Following are the screenshots for the same.
 
+![Screen Shot 2020-04-25 at 11 55 54 PM](https://user-images.githubusercontent.com/57843558/80287712-751a1b00-8750-11ea-8b84-d3db437764e2.png)
 
+![Screen Shot 2020-04-25 at 11 56 36 PM](https://user-images.githubusercontent.com/57843558/80287714-78150b80-8750-11ea-9d4b-9991d779bdcb.png)
 
 
 
