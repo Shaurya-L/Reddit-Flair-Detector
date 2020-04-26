@@ -278,7 +278,7 @@ We can also run the [Automated Testing URL](https://flair-classify.herokuapp.com
 **For Flair Classification**
 
 1) [How to clean text for Machine Learning](https://machinelearningmastery.com/clean-text-machine-learning-python/)
-2) [NLP for eginners: Cleaning and Preprocessing Data](https://towardsdatascience.com/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f)
+2) [NLP for beginners: Cleaning and Preprocessing Data](https://towardsdatascience.com/nlp-for-beginners-cleaning-preprocessing-text-data-ae8e306bef0f)
 3) [Guide for AdaBoost, Random Forest, XGBoost](https://towardsdatascience.com/the-ultimate-guide-to-adaboost-random-forests-and-xgboost-7f9327061c4f)
 4) [Implementing text classification with Python](https://www.analyticsvidhya.com/blog/2018/04/a-comprehensive-guide-to-understand-and-implement-text-classification-in-python/)
 
