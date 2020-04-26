@@ -38,22 +38,22 @@ def prediction(url):
     data['Post_URL'] = str(submission.url)
     data['Post_Body'] = str(submission.selftext)
 
-    #submission.comments.replace_more(limit = None)
-    #comment = ''
-    #count = 0
-    #for top_comment in submission.comments:
-    #    comment = comment + ' ' + top_comment.body
-    #    count += 1
-    #    if(count > 10):
-    #        break
+    submission.comments.replace_more(limit = None)
+    comment = ''
+    count = 0
+    for top_comment in submission.comments:
+        comment = comment + ' ' + top_comment.body
+        count += 1
+        if(count > 10):
+            break
 
-    #data['Post_Comments'] = str(comment)
+    data['Post_Comments'] = str(comment)
 
     data['Post_Title'] = clean_text(str(data['Post_Title']))
     data['Post_Body'] = clean_text(str(data['Post_Body']))
-    #data['Post_Comments'] = clean_text(str(data['Post_Comments']))
+    data['Post_Comments'] = clean_text(str(data['Post_Comments']))
 
-    combined_features = data['Post_Title'] + data['Post_Body'] + data['Post_URL'] #+ data['Post_Comments'] 
+    combined_features = data['Post_Title'] + data['Post_Body'] + data['Post_URL'] + data['Post_Comments'] 
 
     return model.predict([combined_features])
 
