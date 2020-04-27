@@ -158,14 +158,9 @@ Following results were obtained
 | ------------- | ------------- |
 | Naive Bayes  | 67.75  |
 | Linear SVM  | 71.00  |
-| SGDC  | 70.27  |
 | Logistic Regression  | 69.91  |
 | **Random Forest**  | **71.71**  |
-| MLP Classifier  | 52.79  |
-| ADA Boost | 55.85  |
 | Gradient Boosting  | 65.77  |
-| KNN | 49.91 |
-
 
 **Body as a Feature**
 
@@ -173,13 +168,9 @@ Following results were obtained
 | ------------- | ------------- |
 | Naive Bayes  | 32.43  |
 | Linear SVM  | 37.66  |
-| SGDC  | 39.82  |
 | Logistic Regression  | 40  |
 | Random Forest  | 40.72 |
-| MLP Classifier  | 29.73  |
-| ADA Boost | 28.65  |
 | **Gradient Boosting**  | **41.26**  |
-| KNN | 27.57 |
 
 
 **URL as a Feature**
@@ -187,14 +178,10 @@ Following results were obtained
 |   Machine Learning Algorithm  | Test Accuracy |
 | ------------- | ------------- |
 | Naive Bayes  | 29.55  |
-| Linear SVM  | 33.87  |
-| **SGDC**  | **36.94**  |
+| **Linear SVM**  | **33.87**  |
 | Logistic Regression  | 34.23  |
 | Random Forest  | 31.35  |
-| MLP Classifier  | 25.59  |
-| ADA Boost | 26.85  |
 | Gradient Boosting  | 33.15  |
-| KNN | 27.20 |
 
 **Comments as a Feature**
 
@@ -202,13 +189,9 @@ Following results were obtained
 | ------------- | ------------- |
 | Naive Bayes  | 41.62  |
 | Linear SVM  | 51.35 |
-| SGDC  | 52.25  |
 | Logistic Regression  | 51.72  |
 | **Random Forest**  | **52.61**  |
-| MLP Classifier  | 41.98  |
-| ADA Boost | 39.28 |
 | Gradient Boosting  | 47.39  |
-| KNN | 38.38 |
 
 **Title + Body + URL + Comments as a Feature**
 
@@ -216,13 +199,9 @@ Following results were obtained
 | ------------- | ------------- |
 | Naive Bayes  | 62.52  |
 | Linear SVM  | 75.68  |
-| SGDC  | 79.82 |
 | Logistic Regression  | 78.20  |
 | Random Forest  | 81.44  |
-| MLP Classifier  | 60.18  |
-| ADA Boost | 61.98|
 | **Gradient Boosting**  |**84.68**  |
-| KNN | 53.15 |
 
 Using URL and Body as the only features gives us the lowest testing accuracy. We get the highest testing accuracy of **84.68%** when we use **Gradient Boosting** as our algorithm and post title, body, URL and comments as a combined feature.
 
