@@ -141,12 +141,8 @@ We'll be implementing the following Machine Learning algorithms
 * Logistic Regression
 * Naive Bayes
 * Linear SVM
-* SGDC
 * Random Forest
-* MLP Classifier
-* ADA Boost
 * Gradient Boost
-* K Nearest Neightbours(KNN)
 
 We first trained these models using the Post **Title**, **Body**, **URL**, **Comments** feature and then combined these features to create a new feature **Combined_Features** and trained the machine learning models.
 
